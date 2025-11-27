@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>آرین مقدم‌فر | سایت شخصی</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+      line-height: 1.8;
+    }
+
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
+
+    nav .logo {
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 16px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-size: 0.9rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 24px 0 40px;
+    }
+
+    section {
+      margin-bottom: 48px;
+      background-color: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    }
+
+    section h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    .hero p.subtitle {
+      margin-top: 8px;
+      color: #555;
+    }
+
+    .hero small {
+      display: block;
+      margin-top: 8px;
+      color: #777;
+    }
+
+    .tagline {
+      margin-top: 16px;
+      font-weight: 500;
+      color: #444;
+    }
+
+    .timeline {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .timeline li {
+      margin-bottom: 12px;
+    }
+
+    .timeline strong {
+      display: inline-block;
+      min-width: 140px;
+    }
+
+    .projects article {
+      margin-bottom: 16px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 12px;
+    }
+
+    .projects article:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .blog-preview article {
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed #eee;
+    }
+
+    .blog-preview article:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .contact-info a {
+      color: #0066cc;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 0.8rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        gap: 8px;
+        font-size: 0.8rem;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+
+      section {
+        padding: 16px;
+      }
+
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">آرین مقدم‌فر</div>
+        <ul>
+          <li><a href="#home">خانه</a></li>
+          <li><a href="#about">درباره من</a></li>
+          <li><a href="#journey">مسیر من</a></li>
+          <li><a href="#projects">پروژه‌ها</a></li>
+          <li><a href="#blog">یادداشت‌ها</a></li>
+          <li><a href="#contact">ارتباط</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- صفحه اصلی / خانه -->
+    <section id="home" class="hero">
+      <h1>آرین مقدم‌فر</h1>
+      <p class="subtitle">مهندس پزشکی و کارشناس تجهیزات پزشکی، مخصوصاً تجهیزات تنفسی</p>
+      <p class="tagline">
+        مهندس پزشک بیمارستان کسری و برنامه‌نویس پایتون؛ جایی بین دنیای کلینیک، دستگاه و کُد.
+      </p>
+      <small>متولد ۱۳۸۲/۰۶/۲۶ – متولد و بزرگ‌شده‌ی تهران.</small>
+    </section>
+
+    <!-- درباره من -->
+    <section id="about">
+      <h2>درباره من</h2>
+      <p>
+        من آرین مقدم‌فر هستم؛ متولد ۱۳۸۲/۰۶/۲۶، تهران.  
+        مهندسی پزشکی خوانده‌ام و به‌صورت تخصصی در حوزه‌ی
+        <strong>تجهیزات پزشکی، به‌خصوص تجهیزات تنفسی</strong>
+        کار می‌کنم.
+      </p>
+      <p>
+        به عنوان <strong>مهندس پزشک در بیمارستان کسری</strong>،
+        با دستگاه‌هایی سر و کار دارم که مستقیم با جان آدم‌ها در ارتباط‌اند؛
+        از تجهیزات تنفسی گرفته تا سایر سیستم‌های حیاتی.
+      </p>
+      <p>
+        در کنار دنیای تجهیزات پزشکی، به <strong>برنامه‌نویسی با پایتون</strong> هم علاقه‌مندم
+        و ازش برای اتوماسیون کارها، تحلیل داده و ساختن ابزارهای کوچک برای ساده‌تر کردن کارها استفاده می‌کنم.
+      </p>
+      <p>چیزهایی که برای من مهم‌اند:</p>
+      <ul>
+        <li>قابل‌اعتماد بودن عملکرد تجهیزات، مخصوصاً در لحظه‌های حساس تنفسی.</li>
+        <li>فهم دقیق رفتار سیستم‌ها، چه یک دستگاه باشد، چه یک قطعه کُد.</li>
+        <li>طراحی راه‌حل‌های ساده برای مسائل پیچیده‌ی محیط کلینیکی.</li>
+      </ul>
+      <p>
+        این سایت برای من بیشتر از این‌که ویترین باشد، یک دفترچه‌ی باز است؛
+        جایی که مسیر حرفه‌ای‌ام در مهندسی پزشکی و پایتون را ثبت می‌کنم.
+      </p>
+    </section>
+
+    <!-- مسیر من -->
+    <section id="journey">
+      <h2>مسیر من</h2>
+      <p>چند تا نقطه‌ی مهم از مسیر تا این‌جا:</p>
+      <ul class="timeline">
+        <li>
+          <strong>دوران مدرسه:</strong>
+          علاقه‌ی جدی به فیزیک، زیست و سیستم‌های پیچیده؛ جایی که ایده‌ی مهندسی پزشکی شکل گرفت.
+        </li>
+        <li>
+          <strong>ورود به مهندسی پزشکی:</strong>
+          آشنایی عمیق‌تر با آناتومی، فیزیولوژی و دنیای تجهیزات پزشکی.
+        </li>
+        <li>
+          <strong>تمرکز روی تجهیزات تنفسی:</strong>
+          علاقه‌ی خاص به دستگاه‌هایی که با تنفس و حیات لحظه‌ای بیمار در ارتباط‌اند
+          و کار روی یادگیری و تسلط روی این دسته از تجهیزات.
+        </li>
+        <li>
+          <strong>مهندس پزشک بیمارستان کسری:</strong>
+          کار روزانه با تجهیزات پزشکی، پایش عملکرد، عیب‌یابی و همکاری نزدیک با تیم درمان.
+        </li>
+        <li>
+          <strong>پایتون:</strong>
+          شروع یادگیری و استفاده از پایتون برای اسکریپت‌نویسی، تحلیل داده و ساخت ابزارهای کمکی در کنارش.
+        </li>
+      </ul>
+      <p>
+        این لیست قرار است در آینده هم ادامه پیدا کند؛ هر جا قدم جدی‌تری برداشته شد، این‌جا ثبت می‌شود.
+      </p>
+    </section>
+
+    <!-- پروژه‌ها -->
+    <section id="projects" class="projects">
+      <h2>پروژه‌ها</h2>
+
+      <article>
+        <h3>پروژه ۱ – کار روی تجهیزات پزشکی (به‌خصوص تنفسی)</h3>
+        <p><strong>حوزه:</strong> مهندسی پزشکی / تجهیزات بیمارستانی</p>
+        <p>
+          کار روزمره‌ام به عنوان مهندس پزشک در بیمارستان کسری شامل نظارت، عیب‌یابی و همکاری در نگه‌داری
+          تجهیزات پزشکی است؛ با تمرکز ویژه روی دستگاه‌های تنفسی و سیستم‌های مرتبط با مراقبت‌های حیاتی.
+        </p>
+        <p>
+          <strong>چیزی که برایم مهم است:</strong>
+          این‌که دستگاه در لحظه‌ای که باید کار کند، بدون تعارف و بی‌خطا کار کند.
+        </p>
+      </article>
+
+      <article>
+        <h3>پروژه ۲ – اسکریپت‌ها و ابزارهای کوچک با پایتون</h3>
+        <p><strong>حوزه:</strong> برنامه‌نویسی / پایتون</p>
+        <p>
+          به عنوان یک برنامه‌نویس پایتون، روی اسکریپت‌های ساده و ابزارهای کوچک تمرکز دارم
+          که کارهای تکراری را خودکار کنند، داده‌ها را مرتب و قابل‌استفاده کنند،
+          و ارتباط بین دنیای تجهیزات و دنیای داده را راحت‌تر کنند.
+        </p>
+        <p>
+          <strong>ایده‌ی اصلی:</strong>
+          استفاده از کُد برای این‌که زمان بیشتری برای فکر کردن باقی بماند، نه کارِ تکراری.
+        </p>
+      </article>
+    </section>
+
+    <!-- یادداشت‌ها -->
+    <section id="blog" class="blog-preview">
+      <h2>یادداشت‌ها</h2>
+      <article>
+        <h3>چرا تجهیزات تنفسی برای من خاص‌اند؟</h3>
+        <p>
+          تجهیزات تنفسی جزو آن دسته از دستگاه‌هایی‌اند که فاصله‌شان با «زندگی و مرگ» خیلی مستقیم است.
+          برای همین نگاه من به این دستگاه‌ها فقط فنی نیست؛ ترکیبی از مسئولیت، دقت و کنجکاوی است.
+          این‌جا در آینده بیشتر درباره‌ی تجربه‌ها و نگاه شخصی‌ام به این حوزه می‌نویسم.
+        </p>
+      </article>
+
+      <article>
+        <h3>کُد به‌عنوان ابزار کمکی مهندسی پزشکی</h3>
+        <p>
+          پایتون برای من فقط یک زبان برنامه‌نویسی نیست؛ ابزاری است برای ساده‌کردن کارهای پیچیده،
+          ساخت گزارش‌های بهتر و فهم عمیق‌تر رفتار داده‌ها.  
+          در یادداشت‌های بعدی، مثال‌هایی از این استفاده‌ها را ثبت می‌کنم.
+        </p>
+      </article>
+    </section>
+
+    <!-- ارتباط -->
+    <section id="contact" class="contact-info">
+      <h2>ارتباط با من</h2>
+      <p>
+        اگر نظری، سؤالی یا پیشنهادی داری، می‌توانی از طریق ایمیل با من در ارتباط باشی:
+      </p>
+      <p>
+        ایمیل:
+        <a href="mailto:amoghaddam1382@gmail.com">amoghaddam1382@gmail.com</a>
+      </p>
+      <!-- اگر خواستی بعداً لینک شبکه‌های اجتماعی رو این‌جا اضافه کن -->
+      <!--
+      <p>
+        لینکدین:
+        <a href="#">لینک پروفایل</a>
+      </p>
+      -->
+    </section>
+  </main>
+
+  <footer>
+    ساخته شده توسط آرین مقدم‌فر – نسخه‌ی در حال توسعه
+  </footer>
+</body>
+</html>
